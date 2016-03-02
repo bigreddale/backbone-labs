@@ -44,5 +44,6 @@ The directory` 02-views` contains a skeleton HTML file which:
 1. Update `index.js` to:
 
     1. Create the Product model class from the previous lab.
-    1. Create a ProductView class with:
+    1. Create a ProductView class with the Product model as its `model`
+        1. Update its `render()` method to extract the `name` and `brand` properties from the model.
     1. Create instances which render your view into three different elements.
